@@ -12,6 +12,8 @@ command -v zsh | sudo tee -a /etc/shells
 sudo chsh -s $(which zsh) $USER
 
 brew install antidote
+
+source $(brew --prefix)/opt/antidote/share/antidote/antidote.zsh
 # bundle zsh plugins 
 antidote bundle < ~/.zsh_plugins.txt > ~/.zsh_plugins.sh
 
