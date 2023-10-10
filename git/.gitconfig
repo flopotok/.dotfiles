@@ -1,0 +1,10 @@
+[user]
+	name = flopotok
+	email = florenciabsalinas@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+    editor = vim
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
